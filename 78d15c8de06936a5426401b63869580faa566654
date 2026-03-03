@@ -1,0 +1,46 @@
+frontend/src/types/product.ts
+  a920db7e974285b9 5,12
+frontend/src/data/products.json
+  a920db7e974285b9 5-6,11-12,17-18,23-24
+frontend/src/app/page.tsx
+  a920db7e974285b9 31,176-177,179
+frontend/src/app/api/products/route.ts
+  a920db7e974285b9 26,51
+frontend/src/app/api/products/[code]/route.ts
+  a920db7e974285b9 38,56-57
+frontend/src/app/manage-area/page.tsx
+  76e3517fd2c7088f 1-209
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.7",
+  "base_commit_sha": "78d15c8de06936a5426401b63869580faa566654",
+  "prompts": {
+    "76e3517fd2c7088f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f73095c1-7b5a-46f9-9bd9-10472ab8a39a",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Sirirat Kirdsawad <sirirat_k@playtorium.co.th>",
+      "messages": [],
+      "total_additions": 209,
+      "total_deletions": 0,
+      "accepted_lines": 209,
+      "overriden_lines": 0
+    },
+    "a920db7e974285b9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5604e425-5342-4c8d-ab58-a189210d14d2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Sirirat Kirdsawad <sirirat_k@playtorium.co.th>",
+      "messages": [],
+      "total_additions": 565,
+      "total_deletions": 499,
+      "accepted_lines": 89,
+      "overriden_lines": 0
+    }
+  }
+}
