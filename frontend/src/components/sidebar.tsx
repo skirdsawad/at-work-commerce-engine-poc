@@ -32,6 +32,7 @@ enum NavItemKey {
 enum SubItemKey {
   Products = "products",
   Stores = "stores",
+  ManageArea = "manage-area",
   IoTDevices = "iot-devices",
 }
 
@@ -64,6 +65,7 @@ const NAV_ITEMS: NavItemConfig[] = [
     children: [
       { key: SubItemKey.Products, label: "Products", path: "/" },
       { key: SubItemKey.Stores, label: "Stores", path: "/stores" },
+      { key: SubItemKey.ManageArea, label: "Manage Area", path: "/manage-area" },
       { key: SubItemKey.IoTDevices, label: "IoT Devices", path: "#" },
     ],
   },

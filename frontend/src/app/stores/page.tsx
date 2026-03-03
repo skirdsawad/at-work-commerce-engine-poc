@@ -507,10 +507,20 @@ export default function StorePage() {
                         />
                       </div>
                     </div>
-                    {/* Map placeholder */}
-                    <div className="flex h-52 items-center justify-center rounded-md border border-dashed border-gray-300 bg-gray-50 text-sm text-gray-400">
-                      Map preview
-                    </div>
+                    {/* Google Map */}
+                    {formData[StoreField.Latitude] && formData[StoreField.Longitude] ? (
+                      <iframe
+                        className="h-52 w-full rounded-md border"
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                        src={`https://maps.google.com/maps?q=${formData[StoreField.Latitude]},${formData[StoreField.Longitude]}&z=15&output=embed`}
+                        title="Store location"
+                      />
+                    ) : (
+                      <div className="flex h-52 items-center justify-center rounded-md border border-dashed border-gray-300 bg-gray-50 text-sm text-gray-400">
+                        Enter coordinates to preview map
+                      </div>
+                    )}
                   </div>
                 </fieldset>
 

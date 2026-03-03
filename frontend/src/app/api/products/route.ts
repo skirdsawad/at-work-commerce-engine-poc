@@ -23,7 +23,7 @@ export async function GET() {
 
 export async function POST(request: Request) {
   const body = await request.json();
-  const { code, name, description } = body as Product;
+  const { code, name, description, storeCode } = body as Product;
 
   if (!code || !name) {
     return NextResponse.json(
@@ -48,6 +48,7 @@ export async function POST(request: Request) {
     [ProductField.Code]: code,
     [ProductField.Name]: name,
     [ProductField.Description]: description ?? "",
+    [ProductField.StoreCode]: storeCode ?? "",
   };
 
   products.push(newProduct);

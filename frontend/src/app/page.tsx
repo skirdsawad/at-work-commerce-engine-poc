@@ -28,6 +28,7 @@ const EMPTY_PRODUCT: Product = {
   [ProductField.Code]: "",
   [ProductField.Name]: "",
   [ProductField.Description]: "",
+  [ProductField.StoreCode]: "",
 };
 
 const API_BASE = "/api/products";
@@ -172,10 +173,10 @@ export default function ProductPage() {
           <Table>
             <TableHeader>
               <TableRow className="hover:bg-transparent">
-                <TableHead className="w-[160px]">Code</TableHead>
-                <TableHead className="w-[200px]">Name</TableHead>
+                <TableHead className="w-[140px]">Code</TableHead>
+                <TableHead className="w-[180px]">Name</TableHead>
                 <TableHead>Description</TableHead>
-                <TableHead className="w-[160px] text-right">Actions</TableHead>
+                <TableHead className="w-[140px] text-right">Actions</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>

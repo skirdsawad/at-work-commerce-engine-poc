@@ -35,7 +35,7 @@ export async function GET(_request: Request, { params }: RouteParams) {
 export async function PUT(request: Request, { params }: RouteParams) {
   const { code } = await params;
   const body = await request.json();
-  const { name, description } = body as Partial<Product>;
+  const { name, description, storeCode } = body as Partial<Product>;
 
   const products = readProducts();
   const index = products.findIndex((p) => p[ProductField.Code] === code);
@@ -52,6 +52,9 @@ export async function PUT(request: Request, { params }: RouteParams) {
   }
   if (description !== undefined) {
     products[index][ProductField.Description] = description;
+  }
+  if (storeCode !== undefined) {
+    products[index][ProductField.StoreCode] = storeCode;
   }
 
   writeProducts(products);
