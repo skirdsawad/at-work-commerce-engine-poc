@@ -1,0 +1,22 @@
+[
+  {
+    "code": "HOT-DESK",
+    "name": "Hot Desk",
+    "description": "Flexible shared workspace available on a first-come, first-served basis."
+  },
+  {
+    "code": "PRIVATE-OFFICE",
+    "name": "Private Office",
+    "description": "Dedicated private office space for teams or individuals requiring privacy."
+  },
+  {
+    "code": "MEETING-ROOM",
+    "name": "Meeting Room",
+    "description": "Bookable meeting room equipped with a projector and whiteboard."
+  },
+  {
+    "code": "SALADAENG",
+    "name": "Saladaeng Room",
+    "description": ""
+  }
+]
