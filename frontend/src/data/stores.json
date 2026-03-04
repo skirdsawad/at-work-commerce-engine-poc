@@ -9,18 +9,103 @@
     "companyName": "Central Pattana Public Company Limited",
     "taxId": "0107537002443",
     "branchNumber": "00031",
-    "address": "92 Rama 4 Road",
+    "address": "92 Rama 4 Road.",
     "subDistrict": "Silom",
     "district": "Bang Rak",
     "province": "Bangkok",
     "postalCode": "10500",
-    "latitude": "13.72858972",
+    "latitude": "13.72858974",
     "longitude": "100.53713200",
     "o2oStoreId": "atwork_en",
     "sellerEmail": "atwork.cpo@centralpattana.co.th",
     "sellerPassword": "",
     "saleOpsEmail": "atwork.cpo.salesops@centralpattana.tech",
-    "saleOpsPassword": ""
+    "saleOpsPassword": "",
+    "openingHours": {
+      "monday": {
+        "enabled": true,
+        "openTime": "09:00",
+        "closeTime": "18:00"
+      },
+      "tuesday": {
+        "enabled": true,
+        "openTime": "09:00",
+        "closeTime": "18:00"
+      },
+      "wednesday": {
+        "enabled": true,
+        "openTime": "09:00",
+        "closeTime": "18:00"
+      },
+      "thursday": {
+        "enabled": true,
+        "openTime": "09:00",
+        "closeTime": "18:00"
+      },
+      "friday": {
+        "enabled": true,
+        "openTime": "09:00",
+        "closeTime": "18:00"
+      },
+      "saturday": {
+        "enabled": false,
+        "openTime": "09:00",
+        "closeTime": "18:00"
+      },
+      "sunday": {
+        "enabled": false,
+        "openTime": "09:00",
+        "closeTime": "18:00"
+      }
+    },
+    "pricing": {
+      "monday": {
+        "timeRangeRules": [
+          {
+            "fromTime": "09:00",
+            "toTime": "18:00",
+            "price": "10000"
+          }
+        ],
+        "hoursRules": [
+          {
+            "maxHours": "5",
+            "price": "1000"
+          }
+        ],
+        "asRequested": false
+      },
+      "tuesday": {
+        "timeRangeRules": [],
+        "hoursRules": [],
+        "asRequested": false
+      },
+      "wednesday": {
+        "timeRangeRules": [],
+        "hoursRules": [],
+        "asRequested": false
+      },
+      "thursday": {
+        "timeRangeRules": [],
+        "hoursRules": [],
+        "asRequested": false
+      },
+      "friday": {
+        "timeRangeRules": [],
+        "hoursRules": [],
+        "asRequested": false
+      },
+      "saturday": {
+        "timeRangeRules": [],
+        "hoursRules": [],
+        "asRequested": false
+      },
+      "sunday": {
+        "timeRangeRules": [],
+        "hoursRules": [],
+        "asRequested": false
+      }
+    }
   },
   {
     "code": "PKI",

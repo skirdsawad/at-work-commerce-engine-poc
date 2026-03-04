@@ -1,3 +1,6 @@
+import { OpeningHoursMap } from "./opening-hours";
+import { PricingMap } from "./pricing";
+
 export enum StoreField {
   Code = "code",
   Name = "name",
@@ -20,6 +23,8 @@ export enum StoreField {
   SellerPassword = "sellerPassword",
   SaleOpsEmail = "saleOpsEmail",
   SaleOpsPassword = "saleOpsPassword",
+  OpeningHours = "openingHours",
+  Pricing = "pricing",
 }
 
 export interface Store {
@@ -44,4 +49,6 @@ export interface Store {
   [StoreField.SellerPassword]: string;
   [StoreField.SaleOpsEmail]: string;
   [StoreField.SaleOpsPassword]: string;
+  [StoreField.OpeningHours]?: OpeningHoursMap;
+  [StoreField.Pricing]?: PricingMap;
 }
