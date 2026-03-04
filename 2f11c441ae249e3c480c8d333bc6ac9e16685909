@@ -1,0 +1,23 @@
+frontend/src/app/manage-area/page.tsx
+  7c01c4e75101c592 534,563
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.7",
+  "base_commit_sha": "2f11c441ae249e3c480c8d333bc6ac9e16685909",
+  "prompts": {
+    "7c01c4e75101c592": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f0a80448-1dea-4058-b83a-26cf93bd13d6",
+        "model": "<synthetic>"
+      },
+      "human_author": "Sirirat Kirdsawad <sirirat_k@playtorium.co.th>",
+      "messages": [],
+      "total_additions": 6,
+      "total_deletions": 6,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    }
+  }
+}
