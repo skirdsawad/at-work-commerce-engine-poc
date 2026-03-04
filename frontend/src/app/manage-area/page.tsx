@@ -531,7 +531,7 @@ export default function ManageAreaPage() {
                           className="grid grid-cols-[120px_180px_1fr] items-start gap-4 px-4 py-3"
                         >
                           {/* Day */}
-                          <span className="pt-2 text-sm font-medium text-gray-900">
+                          <span className="flex h-9 items-center text-sm font-medium text-gray-900">
                             {DAY_LABELS[day]}
                           </span>
 
@@ -558,9 +558,9 @@ export default function ManageAreaPage() {
                           </Select>
 
                           {/* Settings */}
-                          <div className="pt-2">
+                          <div>
                             {ruleType === PriceRuleType.AsRequested && (
-                              <span className="text-sm text-gray-400">
+                              <span className="flex h-9 items-center text-sm text-gray-400">
                                 Contact sales for quotation
                               </span>
                             )}
